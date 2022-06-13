@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 class MemeGenerator extends React.Component {
     constructor() {
         super();
+
         this.state = {};
     }
     render() {
