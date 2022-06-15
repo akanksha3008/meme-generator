@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Generator from "./Generator";
-import './MemeGenerator.css';
+// import './MemeGenerator.css';
 class MemeGenerator extends React.Component {
     constructor() {
         super();
@@ -16,7 +16,6 @@ class MemeGenerator extends React.Component {
     }
     render() {
         return <div>
-            <h1 className="MemeContainer"> Going to display meme</h1>
             <Generator randomImg={this.state.randomImg} handleSubmit={() => this.setRandomImg()} />
 
         </div>
