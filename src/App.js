@@ -3,6 +3,8 @@ import './App.css';
 import Header from './Header';
 import './Header.css';
 import MemeGenerator from './MemeGenerator';
+import Generator from './Generator';
+
 function App() {
   return (
     <div>
